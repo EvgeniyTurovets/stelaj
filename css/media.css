@@ -283,7 +283,9 @@
 
 }
 @media (max-width: 991px) {
-  
+  .h-phone__watsapp{
+    display: none;
+  }
   .h-logo {
     font-size: 20px;
   }
@@ -1299,7 +1301,7 @@
     padding-top: 56px;
   }
   header{
-    background-image: url('/img/mob-back.jpg') !important;
+    background-image: url('../img/mob-back.jpg') !important;
   }
   .page__section-1{
     padding-top: 62px;
@@ -1846,8 +1848,25 @@
   }
   .p-quesform{
     margin-bottom: 0px;
+  } 
+}
+@media(max-width: 450px){
+  .header__line .row > div:nth-child(4){
+    margin: 0 -3px;
   }
-  
-  
-  
+  .h-phone{
+    padding-left: 0;
+  }
+  .header__h-phone{
+    margin: 0 -11px;
+  }
+  .h-logo{
+    font-size: 16px;
+  }
+}
+@media(max-width: 360px){
+  .h-phone{
+    padding-left: 0;
+  }
+
 }
